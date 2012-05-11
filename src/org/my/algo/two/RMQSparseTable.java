@@ -2,10 +2,10 @@ package org.my.algo.two;
 
 public class RMQSparseTable {
 	int[] logTable;
-	  int[][] rmq;
-	  int[] a;
+	int[][] rmq;
+	int[] a;
 
-	  public RMQSparseTable(int[] a) {
+	public RMQSparseTable(int[] a) {
 	    this.a = a;
 	    int n = a.length;
 
